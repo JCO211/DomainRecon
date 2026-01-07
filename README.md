@@ -14,8 +14,6 @@ El script automatiza tres tareas críticas durante la fase de reconocimiento de 
 
 🚀 Cómo se usa (Instrucciones de uso)
 
-Cualquier usuario que clone tu repositorio solo debe seguir estos tres pasos:
-
 1. Preparar el entorno: Asegurarse de tener Python y las dependencias instaladas:
 Bash
 
@@ -33,3 +31,9 @@ Ejemplo: python3 domain_recon.py empresa.com
     En pantalla: Verá un banner ASCII elegante con los resultados coloreados (Verde para hallazgos, Rojo para errores).
 
     En archivo: El script generará un archivo llamado reporte_empresa.com.txt en la misma carpeta, listo para ser revisado o enviado.
+
+   ADJUNTO IMAGEN
+
+   
+<img width="1366" height="643" alt="Untitled" src="https://github.com/user-attachments/assets/fc3d0420-c890-472f-bc71-8e1e96e3a2be" />
+
