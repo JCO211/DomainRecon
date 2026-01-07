@@ -29,6 +29,20 @@ def check_subdomains(domain):
 import sys
 import socket
 import requests
+def print_banner():
+    banner = f"""
+{Fore.MAGENTA}    ____                        _       ____                      
+   |  _ \  ___  _ __ ___   __ _(_)_ __ |  _ \ ___  ___ ___  _ __  
+   | | | |/ _ \| '_ ` _ \ / _` | | '_ \| |_) / _ \/ __/ _ \| '_ \ 
+   | |_| | (_) | | | | | | (_| | | | | |  _ <  __/ (_| (_) | | | |
+   |____/ \___/|_| |_| |_|\__,_|_|_| |_|_| \_\___|\___\___/|_| |_|
+{Style.RESET_ALL}
+    """
+    print(banner)
+if __name__ == "__main__":
+    print_banner()  # <--- Agrega esto aquí
+    if len(sys.argv) != 2:
+        # ... resto del código ...
 from colorama import Fore, Style, init
 
 init(autoreset=True)
